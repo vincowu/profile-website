@@ -1,0 +1,33 @@
+@import '../../partials/main';
+
+.about{
+    margin: 1rem 3rem;
+    .about-header{
+        margin: 2rem 0;
+    }
+    .background{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 1rem 0;
+        &__title{
+            color: $grey;
+            margin: 1rem 0;
+
+        }
+        &__add{
+
+        }
+        &__add:hover{
+            cursor: pointer;
+        }
+    }
+    .background.active{
+        .accordion{
+            height: auto;
+            max-height: 290px;
+            opacity: 1;
+            transition: max-height 0.7s, opacity 3s, visibility 4s ease;
+        }
+    }
+}

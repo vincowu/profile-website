@@ -1,0 +1,120 @@
+@import '../../partials/main';
+
+.hero{
+    position: relative;
+    .hero-top{
+        background-color: $lightgrey;
+        height: 40vh;
+        }
+    }
+    .hero-mid{
+        background-image: url('../../assets/images/Pic.jpg');
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        height: 15rem;
+        width: 15rem;
+        margin: auto;
+        top: 0;
+        bottom: 20%;
+        left: 0;
+        right: 0;
+    }
+    .hero-bot{
+        margin: auto;
+        background-color: $white;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        @include tablet{
+            width: 50%;
+        }
+        @include desktop{
+            width: 50%;
+        }
+        &__message{
+            text-transform: uppercase;
+            text-align: center;
+            margin: 1rem 0;
+            letter-spacing: 0.25rem;
+        }
+        &__description{
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+
+.skills{
+    background-color: $lightgrey;
+    padding: 2rem 0;
+    .skills-top{
+        margin: 1rem 3rem;
+        @include tablet{
+            margin: 1rem 6rem;
+        }
+        @include desktop{
+            margin: 1rem 12rem;
+        }
+        .skills-header{
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+            margin-bottom: 1rem;
+        }
+        .skills-background{
+            margin: 1.5rem 0;
+            width: 88%;
+        }
+    }
+    .skills-bot{
+        margin: 1rem 3rem;
+        @include tablet{
+            margin: 1rem 6rem;
+        }
+        @include desktop{
+            margin: 1rem 12rem;
+        }
+        .skills-list{
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            @include tablet{
+                width: 70%;
+            }
+            @include desktop{
+                width: 70%;
+            }
+            &__type{
+                flex-basis: 100%;
+                text-transform: uppercase;
+                letter-spacing: 0.25rem;
+                margin: 1rem 0;
+            }
+            &__item{
+                flex-basis: 45%;
+                margin-left: 1rem;
+                margin-bottom: 0.5rem;
+                font-size: 0.875rem;
+                @include tablet{
+                    font-size: 1.3rem;
+                    flex-basis: 30%;
+                    margin-bottom: 1rem;
+                }
+                @include desktop{
+                    font-size: 1.3rem;
+                    flex-basis: 25%;
+                    margin-bottom: 1rem;
+                }
+            }
+            &__item::before{
+                content: "○            ";
+                color: $orange; 
+            }
+        }
+    }
+}

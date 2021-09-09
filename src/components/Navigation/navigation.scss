@@ -1,0 +1,47 @@
+@import '../../partials/main';
+
+.nav-bar{
+    background-color: $darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    &__menu{
+        width: 32px;
+        height: 32px;
+        margin: 0 1rem 0 auto;
+    }
+    &__menu:hover{
+        cursor: pointer;
+    }
+    &__menu:active{
+        transform: rotate(180deg);
+        transition-duration: 0.3s;
+    }
+}
+
+.drawer{
+    width: 35%;
+    background-color: $darkblue !important;
+    .link-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+        .links{
+            transition-duration: 0.2s;
+            flex-basis: 100%;
+            text-decoration: none;
+            color:  $white;
+            margin: 1rem 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+        }
+        .links:hover{
+            color: $grey;
+            transform: translateY(-2px);
+        }
+    }
+}

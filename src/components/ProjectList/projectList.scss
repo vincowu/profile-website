@@ -1,0 +1,147 @@
+@import '../../partials/main';
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    @include tablet{
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    @include desktop{
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .projects-header{
+        flex-basis: 100%;
+        text-transform: uppercase;
+        align-self: flex-start;
+        letter-spacing: 0.25rem;
+        margin: 4rem 3rem 2rem 3rem;
+        @include tablet{
+            margin: 4rem 6rem 2rem 6rem;
+        }
+        @include desktop{
+            margin: 4rem 12rem 2rem 12rem;
+        }
+    }
+    .projects-introduction{
+        margin: 0rem 3rem;
+        @include tablet{
+            margin: 0rem 6rem;
+        }
+        @include desktop{
+            margin: 0rem 12rem;
+        }
+    }
+    .project-link{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        @include tablet{
+            width: 50%;
+            text-align: left;
+        }
+        @include desktop{
+            width: 50%;
+            text-align: left;
+        }
+        .project-card.project-card--left{
+            @include tablet{
+                margin-left: 6rem;
+            }
+            @include desktop{
+                margin-left: 12rem;
+            }
+        }
+        .project-card.project-card--right{
+            @include tablet{
+                margin-right: 6rem;
+            }
+            @include desktop{
+                margin-right: 12rem;
+            }
+        }
+        .project-card{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 3rem 3rem;
+            @include tablet{
+                position: relative;
+                justify-content: flex-start;
+                width: 70%;
+            }
+            @include desktop{
+                position: relative;
+                justify-content: flex-start;
+                width: 70%;
+            }
+            &__image{
+                height: 40vw;
+                width: 100%;
+                border-radius: 1rem;
+                @include tablet{
+                    height: 20vw;
+                }
+                @include desktop{
+                    height: 20vw;
+                }
+            }
+            &__title{
+                flex-basis: 100%;
+                letter-spacing: 0.1rem;
+                margin: 1.5rem 0 1rem 0;
+            }
+            &__description{
+                font-weight: 400;
+                color: $grey;
+            }
+        }
+    }
+    .project-card--noImage{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 3rem 3rem;
+        @include tablet{
+            width: 40%;
+            margin: 3rem 6rem;
+        }
+        @include desktop{
+            width: 40%;
+            margin: 3rem 12rem;
+        }
+        &__site{
+            flex-basis: 100%;
+            letter-spacing: 0.1rem;
+            margin: 1.5rem 0 1rem 0;
+            @include tablet{
+
+            }
+            @include desktop{
+                
+            }
+        }
+        &__site-description{
+            font-weight: 400;
+            color: $grey;
+        }
+    }
+    .project-link:hover{
+        text-decoration: none;
+        .project-card{
+            &__image{
+                transition-duration: 0.2s;
+                transform: scale(1.02);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            &__description{
+                text-decoration: underline;
+            }
+        }
+    }
+}

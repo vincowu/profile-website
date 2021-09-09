@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/vincowu.github.io/profile-website/static/css/main.f5d6895f.chunk.css",
+    "main.js": "/vincowu.github.io/profile-website/static/js/main.87b6b078.chunk.js",
+    "main.js.map": "/vincowu.github.io/profile-website/static/js/main.87b6b078.chunk.js.map",
+    "runtime-main.js": "/vincowu.github.io/profile-website/static/js/runtime-main.254e80ef.js",
+    "runtime-main.js.map": "/vincowu.github.io/profile-website/static/js/runtime-main.254e80ef.js.map",
+    "static/js/2.5c88535e.chunk.js": "/vincowu.github.io/profile-website/static/js/2.5c88535e.chunk.js",
+    "static/js/2.5c88535e.chunk.js.map": "/vincowu.github.io/profile-website/static/js/2.5c88535e.chunk.js.map",
+    "static/js/3.772072f0.chunk.js": "/vincowu.github.io/profile-website/static/js/3.772072f0.chunk.js",
+    "static/js/3.772072f0.chunk.js.map": "/vincowu.github.io/profile-website/static/js/3.772072f0.chunk.js.map",
+    "index.html": "/vincowu.github.io/profile-website/index.html",
+    "static/css/main.f5d6895f.chunk.css.map": "/vincowu.github.io/profile-website/static/css/main.f5d6895f.chunk.css.map",
+    "static/js/2.5c88535e.chunk.js.LICENSE.txt": "/vincowu.github.io/profile-website/static/js/2.5c88535e.chunk.js.LICENSE.txt",
+    "static/media/CARD.bfce7dee.png": "/vincowu.github.io/profile-website/static/media/CARD.bfce7dee.png",
+    "static/media/hero.scss": "/vincowu.github.io/profile-website/static/media/Pic.bbd633cf.jpg",
+    "static/media/add_black_24dp.376e9b6a.svg": "/vincowu.github.io/profile-website/static/media/add_black_24dp.376e9b6a.svg",
+    "static/media/card.5bb5bd6d.png": "/vincowu.github.io/profile-website/static/media/card.5bb5bd6d.png",
+    "static/media/correct-guess.c14fc327.png": "/vincowu.github.io/profile-website/static/media/correct-guess.c14fc327.png",
+    "static/media/game-over.a1ef3d39.png": "/vincowu.github.io/profile-website/static/media/game-over.a1ef3d39.png",
+    "static/media/home.1b419109.png": "/vincowu.github.io/profile-website/static/media/home.1b419109.png",
+    "static/media/iconmonstr-github-1.117a20c4.svg": "/vincowu.github.io/profile-website/static/media/iconmonstr-github-1.117a20c4.svg",
+    "static/media/iconmonstr-linkedin-3.fd095713.svg": "/vincowu.github.io/profile-website/static/media/iconmonstr-linkedin-3.fd095713.svg",
+    "static/media/menu_black_24dp.f8235882.svg": "/vincowu.github.io/profile-website/static/media/menu_black_24dp.f8235882.svg",
+    "static/media/round-demo.a86be48a.mp4": "/vincowu.github.io/profile-website/static/media/round-demo.a86be48a.mp4",
+    "static/media/signup-login.b7d1d2cc.mp4": "/vincowu.github.io/profile-website/static/media/signup-login.b7d1d2cc.mp4",
+    "static/media/ticker-page.aa9d43e0.mp4": "/vincowu.github.io/profile-website/static/media/ticker-page.aa9d43e0.mp4",
+    "static/media/translyric-ipad-pic.ce231716.png": "/vincowu.github.io/profile-website/static/media/translyric-ipad-pic.ce231716.png",
+    "static/media/watchlist.c454ee38.mp4": "/vincowu.github.io/profile-website/static/media/watchlist.c454ee38.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.254e80ef.js",
+    "static/js/2.5c88535e.chunk.js",
+    "static/css/main.f5d6895f.chunk.css",
+    "static/js/main.87b6b078.chunk.js"
+  ]
+}

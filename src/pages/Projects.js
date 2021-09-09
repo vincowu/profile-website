@@ -6,7 +6,7 @@ import MarketStats from '../components/Projects/MarketStats/MarketStats';
 
 const Projects = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/profile-website">
             <Switch>
                 <Route path="/projects" exact>
                     <ProjectList />

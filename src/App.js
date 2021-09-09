@@ -22,7 +22,7 @@ class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/profile-website">
         <Navigation navOpen={this.navClick} navClose={this.navClose} stateNav={this.state.nav} />
         <Switch>
           <Route path="/" exact>

@@ -34,7 +34,7 @@ class AboutMe extends React.Component {
                     {this.state.background && (
                         <div className="accordion">
                             <p className="accordion__text">
-                                I recently graduated from the University of Waterloo majoring in Biomedical Sciences and minoring in Biochemistry. Due to the COVID-19 pandemic, my last 3 terms ended up all being virtual and it was during this time with lots of self reflection on life after university where I decided against pursuing further education in life sciences and instead pursue a career in tech, particularly programming!
+                                I recently graduated from the University of Waterloo, majoring in Biomedical Sciences and minoring in Biochemistry. Due to the COVID-19 pandemic, my last 3 terms before graduation ended up all being virtual and it was during this time with lots of self reflection on life after university where I decided against pursuing further education in life sciences and instead pursue a career in tech, particularly programming!
                             </p>
                         </div>)}
                 </div>

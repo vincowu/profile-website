@@ -5,6 +5,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Projects from './pages/Projects';
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom"
+import ScrollToTop from './components/ReactRouterScroll/ScrollToTop.js';
 
 class App extends Component {
   state = {
@@ -20,9 +21,13 @@ class App extends Component {
       nav: false
     })
   }
+  componentDidMount() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
   render() {
     return (
       <BrowserRouter basename="/profile-website">
+        <ScrollToTop />
         <Navigation navOpen={this.navClick} navClose={this.navClose} stateNav={this.state.nav} />
         <Switch>
           <Route path="/" exact>

@@ -20,12 +20,12 @@ const ProjectList = () => {
                 <div className="project-card project-card--right">
                     <img src={translyric} className="project-card__image" />
                     <h2 className="project-card__title">Translyric</h2>
-                    <p className="project-card__description">A music guessing game based on lyrics that have been translated from english to 2 different languages and back to english</p>
+                    <p className="project-card__description">A music guessing game based on lyrics of popular songs that have been translated back and forth between English and other languages.</p>
                 </div>
             </Link>
             <div className="project-card--noImage">
                 <h2 className="project-card--noImage__site">Portfolio</h2>
-                <p className="project-card--noImage__site-description">This website was also created and designed by me! React and Sass was the tech stack used to bring this to life and it was deployed using Github.io!</p>
+                <p className="project-card--noImage__site-description">This website was also created and designed by me! React and Sass was the tech stack used to bring this to life. This website was deployed using Github Pages.</p>
             </div>
         </div >
     )

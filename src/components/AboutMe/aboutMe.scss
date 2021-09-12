@@ -2,6 +2,7 @@
 
 .about{
     margin: 1rem 3rem;
+    height: auto;
     .about-header{
         margin: 2rem 0;
     }
@@ -13,9 +14,6 @@
         &__title{
             color: $grey;
             margin: 1rem 0;
-
-        }
-        &__add{
 
         }
         &__add:hover{

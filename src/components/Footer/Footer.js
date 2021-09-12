@@ -1,8 +1,5 @@
 import React from 'react';
 import './footer.scss';
-import github from '../../assets/icons/iconmonstr-github-1.svg';
-import linkedin from '../../assets/icons/iconmonstr-linkedin-3.svg';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (

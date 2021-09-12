@@ -24,8 +24,8 @@ const Translyric = () => {
                 </p>
                 <ul className="tech-stack">
                     <h2 className="tech-stack__header">STACK</h2>
-                    {stack.map((tech) => {
-                        return <li className="tech-stack__item">{tech}</li>
+                    {stack.map((tech, index) => {
+                        return <li className="tech-stack__item" key={'mykey' + index}>{tech}</li>
                     })}
                 </ul>
             </div>

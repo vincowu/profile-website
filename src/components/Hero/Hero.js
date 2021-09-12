@@ -25,14 +25,14 @@ const Hero = () => {
                 <div className="skills-bot">
                     <ul className="skills-list">
                         <h2 className="skills-list__type">Languages</h2>
-                        {languages.map((language) => {
-                            return <li className="skills-list__item">{language}</li>
+                        {languages.map((language, index) => {
+                            return <li className="skills-list__item" key={'mykey' + index}>{language}</li>
                         })}
                     </ul>
                     <ul className="skills-list">
                         <h2 className="skills-list__type">Technology</h2>
-                        {tech.map((thing) => {
-                            return <li className="skills-list__item">{thing}</li>
+                        {tech.map((thing, index) => {
+                            return <li className="skills-list__item" key={'mykey' + index}>{thing}</li>
                         })}
                     </ul>
                 </div>

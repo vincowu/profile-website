@@ -5,6 +5,11 @@
     flex-direction: column;
     align-items: center;
     background-color: $white;
+    animation: slideIn ease-in 1s;
+    -webkit-animation: slideIn ease-in 1s;
+    -moz-animation: slideIn ease-in 1s;
+    -o-animation: slideIn ease-in 1s;
+    -ms-animation: slideIn ease-in 1s;
     @include tablet{
         flex-direction: row;
         justify-content: flex-start;
@@ -70,6 +75,11 @@
             justify-content: center;
             flex-wrap: wrap;
             margin: 3rem 3rem;
+            animation: dropDown ease-in 1s;
+            -webkit-animation: dropDown ease-in 1s;
+            -moz-animation: dropDown ease-in 1s;
+            -o-animation: dropDown ease-in 1s;
+            -ms-animation: dropDown ease-in 1s;
             @include tablet{
                 position: relative;
                 justify-content: flex-start;

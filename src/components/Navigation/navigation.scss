@@ -6,6 +6,11 @@
     justify-content: space-between;
     align-items: center;
     height: 7rem;
+    animation: slideIn ease-in 1s;
+    -webkit-animation: slideIn ease-in 1s;
+    -moz-animation: slideIn ease-in 1s;
+    -o-animation: slideIn ease-in 1s;
+    -ms-animation: slideIn ease-in 1s;
     &__menu{
         width: 32px;
         height: 32px;

@@ -3,9 +3,11 @@ import Navigation from './components/Navigation/Navigation.js';
 import Footer from './components/Footer/Footer.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
-import Projects from './pages/Projects';
+import Translyric from './pages/Projects/Translyric/Translyric.js';
+import MarketStats from './pages/Projects/MarketStats/MarketStats.js';
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom"
 import ScrollToTop from './components/ReactRouterScroll/ScrollToTop.js';
+import ProjectList from './components/ProjectList/ProjectList.js';
 
 class App extends Component {
   state = {
@@ -21,9 +23,7 @@ class App extends Component {
       nav: false
     })
   }
-  componentDidMount() {
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
-  }
+
   render() {
     return (
       <BrowserRouter basename="/profile-website">
@@ -33,18 +33,21 @@ class App extends Component {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/about" exact>
+          <Route path="/about">
             <About />
           </Route>
           <Route path="/projects" exact>
-            <Projects />
+            <ProjectList />
           </Route>
-          <Route path="/projects/:name" exact>
-            <Projects />
+          <Route path="/translyric">
+            <Translyric />
+          </Route>
+          <Route path="/projects/market-stats">
+            <MarketStats />
           </Route>
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </BrowserRouter >
     )
   }
 }

@@ -2,6 +2,11 @@
 
 .about{
     margin: 1rem 3rem;
+    animation: slideIn ease-in 1s;
+    -webkit-animation: slideIn ease-in 1s;
+    -moz-animation: slideIn ease-in 1s;
+    -o-animation: slideIn ease-in 1s;
+    -ms-animation: slideIn ease-in 1s;
     .about-header{
         margin: 2rem 0;
     }

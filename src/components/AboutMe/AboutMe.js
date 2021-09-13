@@ -34,7 +34,7 @@ class AboutMe extends React.Component {
                     {this.state.background && (
                         <div className="accordion">
                             <p className="accordion__text">
-                                I recently graduated from the University of Waterloo, majoring in Biomedical Sciences and minoring in Biochemistry. Due to the COVID-19 pandemic, my last 3 terms before graduation ended up all being virtual and it was during this time with lots of self reflection on life after university where I decided against pursuing further education in life sciences and instead pursue a career in tech, particularly programming!
+                                I recently graduated from the University of Waterloo, majoring in Biomedical Sciences and minoring in Biochemistry. Due to the COVID-19 pandemic, my final three study terms before graduation ended up being completely virtual. It was during this time where I contemplated life after university and also, whether I truly enjoyed life sciences as much as I thought I once did. After careful consideration, I decided against pursuing further education in bioinformatics and instead, attempt to switch into the technology field, particularly programming and development.
                             </p>
                         </div>)}
                 </div>
@@ -44,10 +44,10 @@ class AboutMe extends React.Component {
                     {this.state.journey && (
                         <div className="background-accordion">
                             <p className="background-accordion__text">
-                                During my undergrad, I took several computer science classes which was how I was introduced to programming. It was here I first learned about imperative programming and functional programming using Dr Racket and Python.
+                                During my undergrad, I took several computer science classes which introduced me to programming. It was here where I first learned about imperative and functional programming through the use of different coding languages (Dr. Racket and Python). After graduating from UW, I completed a 12-week Full Stack Web Development bootcamp at BrainStation. Instead of pursuing an additional degree in computer science, I decided to attend this programming bootcamp as I wanted to learn relevant industry technologies in an immersive environment.
                             </p>
                             <p className="background__text">
-                                After graduating from UW, I decided I wanted to fast track my learning and attend a fully immersive 12 week full stack web development bootcamp at BrainStation. During this 12 week bootcamp, I learned alot of different technologies and have continued to hone the things I learned through my side projects.
+                                After graduating from UW, I completed a 12-week Full Stack Web Development bootcamp at BrainStation. Instead of pursuing an additional degree in computer science, I decided to attend this programming bootcamp as I wanted to learn relevant industry technologies in an immersive environment.
                             </p>
                         </div>)}
                 </div>
@@ -57,7 +57,7 @@ class AboutMe extends React.Component {
                     {this.state.future && (
                         <div className="background-accordion">
                             <p className="background-accordion__text">
-                                I am very eager to learn all that I can about developing and programming. I really enjoy creating applications and websites in my spare time so if you have time, please checkout my github or connect with me on LinkedIn!
+                                Looking back at the beginning of my journey to where I am today, I can say with certainty that I truly enjoy programming. My passion for programming has made me very eager to learn and I am so excited to see where this path takes me. Feel free to connect with me on LinkedIn or check out my Github! Thanks for reading!
                             </p>
                         </div>)}
                 </div>

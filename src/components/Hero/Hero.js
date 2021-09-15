@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './hero.scss';
 
 let languages = ["JavaScript", "Python", "HTML/CSS", "DrRacket"]
@@ -12,7 +13,7 @@ const Hero = () => {
                 <div className="hero-mid"></div>
                 <div className="hero-bot">
                     <h1 className="hero-bot__message">Hello!</h1>
-                    <h2 className="hero-bot__description">My name is Vinco and welcome to my website! I'm a Front End Web Developer that likes creating websites and applications during my free time! </h2>
+                    <h2 className="hero-bot__description">My name is Vinco and welcome to my website! I'm a Front End Web Developer that likes creating websites and applications during my free time! You can learn more about me and my journey <Link className="link" to="/about">here</Link> </h2>
                 </div>
             </div>
             <div className="skills">

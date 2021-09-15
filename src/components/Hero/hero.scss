@@ -2,11 +2,11 @@
 
 .hero{
     position: relative;
-    animation: slideIn ease-in 1s;
-    -webkit-animation: slideIn ease-in 1s;
-    -moz-animation: slideIn ease-in 1s;
-    -o-animation: slideIn ease-in 1s;
-    -ms-animation: slideIn ease-in 1s;
+    animation: slideIn ease-in 0.5s;
+    -webkit-animation: slideIn ease-in 0.5s;
+    -moz-animation: slideIn ease-in 0.5s;
+    -o-animation: slideIn ease-in 0.5s;
+    -ms-animation: slideIn ease-in 0.5s;
     .hero-top{
         background-color: $lightgrey;
         height: 40vh;
@@ -52,6 +52,14 @@
         &__description{
             text-align: center;
             font-weight: 400;
+            .link{
+                text-decoration: none;
+                color: black;
+            }
+            .link:hover{
+                font-weight: bold;
+                text-decoration: underline;
+            }
         }
     }
 

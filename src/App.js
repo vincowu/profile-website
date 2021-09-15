@@ -39,7 +39,7 @@ class App extends Component {
           <Route path="/projects" exact>
             <ProjectList />
           </Route>
-          <Route path="/translyric">
+          <Route path="/projects/translyric">
             <Translyric />
           </Route>
           <Route path="/projects/market-stats">

@@ -8,11 +8,11 @@
     background-size: cover;
     height: auto;
     padding: 1rem 0;
-    animation: slideIn ease-in 1s;
-    -webkit-animation: slideIn ease-in 1s;
-    -moz-animation: slideIn ease-in 1s;
-    -o-animation: slideIn ease-in 1s;
-    -ms-animation: slideIn ease-in 1s;
+    animation: slideIn ease-in 0.5s;
+    -webkit-animation: slideIn ease-in 0.5s;
+    -moz-animation: slideIn ease-in 0.5s;
+    -o-animation: slideIn ease-in 0.5s;
+    -ms-animation: slideIn ease-in 0.5s;
     &__description{
         color: $white;
         text-align: center;

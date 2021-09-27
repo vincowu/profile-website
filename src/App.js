@@ -32,21 +32,24 @@ class App extends Component {
         <Switch>
           <Route path="/" exact>
             <Home />
+            <Footer />
           </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/projects" exact>
             <ProjectList />
+            <Footer />
           </Route>
           <Route path="/projects/translyric">
             <Translyric />
+            <Footer />
           </Route>
           <Route path="/projects/market-stats">
             <MarketStats />
+            <Footer />
           </Route>
         </Switch>
-        <Footer />
       </BrowserRouter >
     )
   }

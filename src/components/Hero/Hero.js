@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <>
             <div className="hero">
-                <div className="hero-top"></div>
+                {/* <div className="hero-top"></div> */}
                 <div className="hero-mid"></div>
                 <div className="hero-bot">
                     <h1 className="hero-bot__message">Hello!</h1>

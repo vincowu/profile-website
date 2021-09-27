@@ -1,7 +1,9 @@
 @import '../../partials/main';
 
 .hero{
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     animation: slideIn ease-in 0.5s;
     -webkit-animation: slideIn ease-in 0.5s;
     -moz-animation: slideIn ease-in 0.5s;
@@ -22,10 +24,11 @@
         // position: absolute;
         height: 15rem;
         width: 15rem;
-        margin: 5rem auto 4rem auto;
+        margin: 4rem auto 2rem auto;
         @include tablet{
             height: 20rem;
             width: 20rem;
+            margin: 4rem auto 2rem auto;
         }
         @include desktop{
             height: 20rem;
@@ -33,31 +36,38 @@
         }
     }
     .hero-bot{
+        flex-basis: 100%;
         margin: 0 auto;
-        height: 30vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         width: 70%;
+        margin-bottom: 2rem;
         @include tablet{
             // margin-top: 3rem;
-            height: 40vh;
+            height: auto;
             width: 50%;
+            margin-bottom: 3rem;
         }
         @include desktop{
-            height: 40vh;
+            height: auto;
             width: 50%;
+            margin-bottom: 3rem;
         }
         &__message{
             text-transform: uppercase;
             text-align: center;
             margin: 1rem 0;
             letter-spacing: 0.25rem;
+            width: 50%;
         }
         &__description{
+            display: block;
             text-align: center;
             font-weight: 400;
+            width: 50%;
             .link{
                 text-decoration: none;
                 color: black;
@@ -68,10 +78,15 @@
             }
         }
     }
-}
 .skills{
+    display: block;
     background-color: $lightgrey;
     padding: 2rem 0;
+    animation: slideIn ease-in 0.5s;
+    -webkit-animation: slideIn ease-in 0.5s;
+    -moz-animation: slideIn ease-in 0.5s;
+    -o-animation: slideIn ease-in 0.5s;
+    -ms-animation: slideIn ease-in 0.5s;
     .skills-top{
         margin: 1rem 3rem;
         @include tablet{
@@ -136,4 +151,5 @@
             }
         }
     }
+}
 }

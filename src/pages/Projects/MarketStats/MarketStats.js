@@ -5,6 +5,7 @@ import ticker from '../../../assets/videos/marketstats/ticker-page.mp4';
 import user from '../../../assets/videos/marketstats/signup-login.mp4';
 import home from '../../../assets/images/marketstats/home.png';
 
+
 const stack = ["React", "Sass", "Express", "MongoDB", "Mongoose", "JWT", "Alphavantage (Financial Data API)", "Marketstack (Trading Data API)"]
 
 

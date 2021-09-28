@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/profile-website/static/css/main.20a77e6e.chunk.css",
+    "main.css": "/profile-website/static/css/main.53aadb48.chunk.css",
     "main.js": "/profile-website/static/js/main.3808c170.chunk.js",
     "main.js.map": "/profile-website/static/js/main.3808c170.chunk.js.map",
     "runtime-main.js": "/profile-website/static/js/runtime-main.9fc3b5dd.js",
@@ -12,7 +12,7 @@
     "static/js/3.6918225e.chunk.js.map": "/profile-website/static/js/3.6918225e.chunk.js.map",
     "index.html": "/profile-website/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/profile-website/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.20a77e6e.chunk.css.map": "/profile-website/static/css/main.20a77e6e.chunk.css.map",
+    "static/css/main.53aadb48.chunk.css.map": "/profile-website/static/css/main.53aadb48.chunk.css.map",
     "static/js/2.ae8e874c.chunk.js.LICENSE.txt": "/profile-website/static/js/2.ae8e874c.chunk.js.LICENSE.txt",
     "static/media/CARD.bfce7dee.png": "/profile-website/static/media/CARD.bfce7dee.png",
     "static/media/hero.scss": "/profile-website/static/media/Pic.f1ac20a9.jpg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.9fc3b5dd.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.ae8e874c.chunk.js",
-    "static/css/main.20a77e6e.chunk.css",
+    "static/css/main.53aadb48.chunk.css",
     "static/js/main.3808c170.chunk.js"
   ]
 }

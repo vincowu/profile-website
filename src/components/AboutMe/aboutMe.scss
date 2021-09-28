@@ -25,9 +25,9 @@
         }
     }
     .background.active{
+        height: auto;
         .accordion{
             height: auto;
-            max-height: 290px;
             opacity: 1;
             transition: max-height 0.7s, opacity 3s, visibility 4s ease;
         }

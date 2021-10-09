@@ -28,16 +28,16 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="skills-bot">
-                        <ul data-aos="fade-right" className="skills-list">
-                            <h2 className="skills-list__type">Languages</h2>
+                        <ul className="skills-list">
+                            <h2 data-aos="fade-right" className="skills-list__type">Languages</h2>
                             {languages.map((language, index) => {
-                                return <li className="skills-list__item" key={'mykey' + index}>{language}</li>
+                                return <li data-aos="fade-right" className="skills-list__item" key={'mykey' + index}>{language}</li>
                             })}
                         </ul>
-                        <ul data-aos="fade-right" className="skills-list">
-                            <h2 className="skills-list__type">Technology</h2>
+                        <ul className="skills-list">
+                            <h2 data-aos="fade-right" className="skills-list__type">Technology</h2>
                             {tech.map((thing, index) => {
-                                return <li className="skills-list__item" key={'mykey' + index}>{thing}</li>
+                                return <li data-aos="fade-right" className="skills-list__item" key={'mykey' + index}>{thing}</li>
                             })}
                         </ul>
                     </div>
